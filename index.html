@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog project</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Montserrat:wght@300;900&family=Noto+Serif&family=Open+Sans:wght@300;400;600;800&family=Roboto:wght@100;300;700&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <title>Modest</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="grid.css">
 </head>
+
 <body>
     <header class="header">
         <div class="container">
             <div class="row">
-                <div class="col-2">
+                <div class="col-xs-12 col-sm-2 col-md-3">
                     <div class="logo">
                         <a href="">
-                        <img src="images/logo.png" alt="logo">
+                            <img class="logo-img" src="images/logo.png" alt="logo">
                         </a>
                     </div>
                 </div>
-                <div class="col-8">
-                    <nav>
+                <div class="col-xs-12 col-sm-8 col-md-7">
+                    <nav class="nav">
                         <ul class="menu">
                             <li><a class="menu-link" href="#">Home</a></li>
                             <li><a class="menu-link" href="#">About</a></li>
@@ -35,19 +35,125 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="col-2">
+                <div class="hidden-xs col-sm-2">
                     <div class="search-box">
                         <input class="search" type="text" placeholder="search">
-                        <button class="btn"></button>    
+                        <button class="search-btn"></button>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-    <main>
-
-    </main>
-    <footer>
-    </footer>
+    <div class="main-one">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="title-main-one">
+                        <p>Welcome to our marketplase</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-7">
+                    <div class="text-main-one-box">
+                        <p class="text-main-one">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi
+                            metus, tristique ndolor
+                            non, ornare sagittis dolor. Nulla vestibulu lacus ...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="main-one-button">
+                        <button class="view btn">View more</button>
+                        <button class="video btn">Video tour</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-two">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="title-main-two">
+                        <p>We are modest.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-7">
+                    <div class="text-main-two-box">
+                        <p class="text-main-two">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi
+                            metus, tristique ndolor non, ornare sagittis dolor. Nulla vestibulu lacus sed molestie
+                            gravida. Crferm entum quismagna congue, vel sodales arcu vestibulum. Nunc lobortis dui
+                            magna, quis lacusullamcorper at</p>
+                        <p class="text-main-two">Phasellus sollicitudin ante eros ornare,<span class="bold-text">sit amet luctus lorem semper.</span>
+                            Suspendisse posuere, quamdictum consectetur, augue metus pharetra tellus, eu feugiatloreg
+                            egetnisi. Cras ornare bibendum ante, ut bibendum odio convallis eget. vel sodales arcu
+                            vestibulum</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-5">
+                    <div class="container-box">
+                        <div class="number-box">
+                            01
+                        </div>
+                        <div class="text-conteiner-box">
+                            <p class="text-conteiner-box-title">Dedication to the customers</p3>
+                            <p class="text-conteiner-box-paragraph">Integer vel lacus non dui ullamcorper venenatis. Aliquam vitae tristique nisi, vitae ullamcorper risus.</p>
+                        </div>
+                    </div>
+                    <div class="container-box">
+                        <div class="number-box">
+                            02
+                        </div>
+                        <div class="text-conteiner-box">
+                            <p class="text-conteiner-box-title">working closely with our clients</p>
+                            <p class="text-conteiner-box-paragraph">Sed blandit nisi urna, sed pellentesque enim consectetur vitae. Suspendisse ut vehicula nibh.</p>
+                        </div>
+                    </div>
+                    <div class="container-box">
+                        <div class="number-box">
+                            03
+                        </div>
+                        <div class="text-conteiner-box">
+                            <p class="text-conteiner-box-title">increase happiness</p>
+                            <p class="text-conteiner-box-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eleifend laoreet euismod.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="social-network-container">
+                        <div class="social-network-box">
+                            <button class="social-network facebook"></button>
+                        </div>
+                        <div class="social-network-box">
+                            <button class="social-network twitter"></button>
+                        </div>
+                        <div class="social-network-box">
+                            <button class="social-network google"></button>
+                        </div>
+                        <div class="social-network-box">
+                            <button class="social-network dribble"></button>
+                        </div>
+                        <div class="social-network-box">
+                            <button class="social-network behance"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-three">
+        <div class="container">
+            <div class="row">
+                
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
