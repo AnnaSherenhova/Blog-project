@@ -132,14 +132,14 @@ body {
 }
 
 
-/*main-1 content*/
-.main-one{
-    background-image: url(images/main-1.png);
+/*slider content*/
+.slider{
+    background-image: url(images/we-are-modest.png);
     height: 660px;
     background-repeat: no-repeat;
     background-position: center center;
 }
-.title-main-one{
+.slider-title {
     font-family: 'Quattrocento Sans', sans-serif;
     color: white;
     font-size: 36px;
@@ -147,13 +147,13 @@ body {
     text-transform: uppercase;
     padding-top: 225px;
 }
-.text-main-one{
+.text-slider {
     color: #ccd0d7;
     font-size: 16px;
     line-height: 1.5;
     padding-top: 34px;
 }
-.main-one-button {
+.slider-button {
     padding-top: 43px;
 }
 .btn {
@@ -176,26 +176,28 @@ body {
 }
 
 
-/*main-2 content*/
-.main-two{
-    height: 612px;
-    background-color: white;
-    border-bottom: 1px solid #dde1e4;
-}
-.title-main-two{
+[class*="title-"] {
     border-left: 10px solid #e1e6ea;
     color: #292f36;
     text-transform: uppercase;
     font-size: 36px;
     font-weight: bold;
-    font-family: 'Quattrocento Sans',sans-serif;
+    font-family: 'Quattrocento Sans',
+        sans-serif;
     padding-left: 14px;
     margin-top: 87px;
 }
-.text-main-two-box{
+
+/*we-are-modest content*/
+.we-are-modest{
+    height: 612px;
+    background-color: white;
+    border-bottom: 1px solid #dde1e4;
+}
+.text-we-are-modest-box {
     padding-top: 61px;
 }
-.text-main-two{
+.text-we-are-modest {
     font-size: 16px;
     line-height: 1.5;
     color: #aaabad;
@@ -248,6 +250,9 @@ body {
     border: none;
     cursor: pointer;
 }
+.social-network:hover{
+    background-color: #23b7a3;
+}
 .facebook{
     background-image: url(images/facebook.png);
     background-repeat: no-repeat;
@@ -272,7 +277,105 @@ body {
     background-image: url(images/behance.png);
     background-repeat: no-repeat;
     background-position: center center;
+} 
+.lenkedln{
+    background-image: url(images/Lenkedln.png);
+    background-repeat: no-repeat;
+    background-position: center center;
 }
+
+/*meet-the-team content*/
+.meet-the-team{
+    height: 649px;
+    background-color: white;
+}
+.photo-container{
+    padding-top: 61px;
+    display: flex;
+    margin: 0 -15px;
+}
+.photo-box {
+    margin: 0 15px;
+}
+.photo-image{
+    width: 263px;
+    height: 298px;
+}
+.photo-image:hover>.meet-the-team-social-network-container{
+    display: flex;
+    margin: 0 -1px;
+}
+.photo-one{
+    background-image: url(images/gloria.png);
+}
+.photo-two {
+    background-image: url(images/paul.png);
+}
+
+.photo-three {
+    background-image: url(images/judith.png);
+}
+
+.photo-four {
+    background-image: url(images/delores.png);
+}
+
+.photo-box-content{
+    width: 263px;
+    height: 73px;
+    background-color: #e1e6ea;
+    padding: 20px;
+}
+.photo-box-content:hover{
+    background-color: #3a454d;
+}
+.photo-box-content:hover>.photo-box-title{
+    color: white;
+}
+.photo-box-content:hover>.photo-box-text{
+    color: white;
+}
+.photo-box-title{
+    font-family: 'Quattrocento Sans',
+    sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #292f36;
+    text-transform: uppercase;
+    margin-bottom: 11px;    
+}
+.photo-box-text{
+    font-size: 14px;
+    color: #a2a4a8;
+}
+
+.meet-the-team-social-network-container {
+    display: none;
+}
+
+.meet-the-team-social-network {
+    width: 50px;
+    height: 50px;
+    margin: 0 1px;
+    background-color: #3a454d;
+    border: none;
+    cursor: pointer;
+}
+
+.meet-the-team-social-network:hover {
+    background-color: #4e5a62;
+}
+
+.meet-the-team-social-network-container{
+    align-items: center;
+    justify-content: center;
+    padding-top: 124px;
+}
+
+
+
+
+
 
 
 /*tablet -sm*/
@@ -374,8 +477,8 @@ body {
     }
 }
 
-/*main-2 content*/
-.main-two {
+/*we-are-modest content*/
+.we-are-modest {
     height: 830px;
     background-color: white;
     border-bottom: 1px solid #dde1e4;
@@ -478,6 +581,7 @@ body {
         margin: 6px 15px;
         cursor: pointer;
     }
+
 }
 
 
@@ -538,8 +642,8 @@ body {
     .hidden-xs {
         display: none;
     }
-    /*main-2 content*/
-    .main-two {
+    /*we-are-modest content*/
+    .we-are-modest {
         height: 1250px;
         background-color: white;
         border-bottom: 1px solid #dde1e4;
