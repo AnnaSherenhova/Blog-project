@@ -190,7 +190,6 @@ body {
 
 /*we-are-modest content*/
 .we-are-modest{
-    height: 612px;
     background-color: white;
     border-bottom: 1px solid #dde1e4;
 }
@@ -286,13 +285,17 @@ body {
 
 /*meet-the-team content*/
 .meet-the-team{
-    height: 649px;
     background-color: white;
 }
 .photo-container{
     padding-top: 61px;
+    padding-bottom: 100px;
     display: flex;
     margin: 0 -15px;
+    align-content: stretch;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .photo-box {
     margin: 0 15px;
@@ -300,6 +303,9 @@ body {
 .photo-image{
     width: 263px;
     height: 298px;
+}
+.photo-image:hover{
+    opacity: 0.75;
 }
 .photo-image:hover>.meet-the-team-social-network-container{
     display: flex;
@@ -372,9 +378,83 @@ body {
     padding-top: 124px;
 }
 
+/*lovely-work contant*/
+.lovely-work{
+    background-color: #3a454d;
+}
 
+.white-letter{
+    color: white;
+}
 
+.picture-container{
+    padding-top: 60px;
+}
 
+.picture-box{
+    display: flex;
+    margin: 0 15px;
+    align-content: stretch;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+[class*="pictures"] {
+    margin: 0 15px;
+    width: 360px;
+    height: 265px;
+    flex-shrink: 0;
+}
+.pictures:hover{
+    opacity: 0.75;
+}
+.pictures:hover > .picture-box-content {
+    display: flex;
+    width: 360px;
+    height: 60px;
+    background-color: #292f36;
+    padding-left: 20px;
+    padding-top: 25px;
+
+}
+.picture-1{
+    background-image: url(images/picture1.png);
+}
+
+.picture-2{
+     background-image: url(images/picture2.png);
+}
+.picture-3 {
+    background-image: url(images/picture3.png);
+}
+.picture-4 {
+    background-image: url(images/picture4.png);
+}
+.picture-5 {
+    background-image: url(images/picture5.png);
+}
+.picture-6 {
+    background-image: url(images/picture6.png);
+}
+.picture-box-content{
+    display: none;
+    width: 360px;
+    height: 60px;
+    background-color: #292f36;
+    padding-left: 20px;
+    padding-top: 25px;
+}
+.picture-box-content-text{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.lovely-work-button{
+    text-align: center;
+    padding: 60px 0;
+}
 
 
 
