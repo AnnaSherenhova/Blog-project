@@ -289,7 +289,7 @@ body {
 }
 .photo-container{
     padding-top: 61px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     display: flex;
     margin: 0 -15px;
     align-content: stretch;
@@ -385,8 +385,6 @@ body {
 .white-letter{
     color: white;
 }
-.picture-container{
-}
 .picture-box{
     display: flex;
     margin: 0 15px;
@@ -473,10 +471,130 @@ body {
 }
 
 
+/*what-we-do container*/
+
+.what-we-do{
+    background-color: white;
+}
+
+.tasks-container{
+    padding-top: 60px;
+    display: flex;
+    margin: 0 -15px;
+    align-content: stretch;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.tasks-box{
+    width: 263px;
+    height: 250px;
+    margin: 0 15px;
+    background-color: white;
+}
+
+.tasks-box-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tasks-box-content-img{
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center center;
+    color: #23b7a3;
+}
+
+.image-1 {
+    background-image: url(images/wheel.png);
+}
+.image-2{
+    background-image: url(images/pencil.png);
+}
+.image-3 {
+    background-image: url(images/mobile.png);
+}
+.image-4 {
+    background-image: url(images/watch.png);
+}
+
+.tasks-box-content-title{
+    color: #292f36;
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Quattrocento Sans',
+    sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+
+.tasks-box-content-text{
+    color: #909295;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 30px;
+    line-height: 1.1;
+}
 
 
 
+/*features content*/
 
+.features{
+    background-color: #3a454d;
+}
+
+.features-container{
+    padding-top: 60px;
+    padding-bottom: 100px;
+    display: flex;
+    margin: 0 -15px;
+    align-content: stretch;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.features-box{
+    margin: 0 15px;
+}
+
+.features-box-content-img{
+    width: 360px;
+    height: 240px;
+}
+
+.paint-1{
+    background-image: url(images/paint-1.png);
+}
+.paint-2 {
+    background-image: url(images/paint-2.png);
+}
+.paint-3 {
+    background-image: url(images/paint-3.png);
+}
+
+.features-box-content-title{
+    color: white;
+    font-size: 18px;
+    font-family: 'Quattrocento Sans',
+    sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 55px;
+}
+
+.features-box-content-text {
+    color: #dcdfe1;
+    font-size: 16px;
+    padding-top: 30px;
+    line-height: 1.5;
+}
 
 /*tablet -sm*/
 
@@ -596,6 +714,11 @@ body {
     .picture-content-box {
         width: 340px;
     }
+
+    /*features content*/
+    .features-box-content-img {
+        width: 340px;
+    }
 }
 
 
@@ -711,6 +834,12 @@ body {
     .picture-content-box {
         width: 320px;
     }
+
+
+    /*features content*/
+    .features-box-content-img {
+        width: 320px;
+    }
 }
 
 
@@ -777,6 +906,11 @@ body {
     .picture-content-box {
         width: 360px;
     }
+
+    /*features content*/
+    .features-box-content-img {
+        width: 360px;
+    }
 }
 
 
@@ -805,6 +939,11 @@ body {
     }
 
     .picture-content-box {
+        width: 300px;
+    }
+
+    /*features content*/
+    .features-box-content-img {
         width: 300px;
     }
 }
